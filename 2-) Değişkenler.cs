@@ -23,7 +23,8 @@ class DegiskenDersleri // Yeni bir sınıf oluşturduk. Adı "DegiskenDersleri".
 
 //double boy = 1.58;
 
-//Açıklama: double veri tipi ondalıklı sayıları ifade eder. Bu örnekte boy adlı bir değişken tanımlanıyor ve değeri 1.58 olarak belirleniyor. Ondalık sayılar için double kullanılır.
+//Açıklama: double veri tipi ondalıklı sayıları ifade eder. 
+//Bu örnekte boy adlı bir değişken tanımlanıyor ve değeri 1.58 olarak belirleniyor. Ondalık sayılar için double kullanılır.
 
 //string isim = "Murat";
 
@@ -31,8 +32,9 @@ class DegiskenDersleri // Yeni bir sınıf oluşturduk. Adı "DegiskenDersleri".
 
 //bool sigaraKullaniyorMu = false;
 
-//Açıklama: bool(boolean), sadece iki değer alabilir: true(doğru) ya da false (yanlış). Burada sigaraKullaniyorMu adlı bir değişken tanımlandı ve değeri false olarak ayarlandı (yani sigara kullanmıyor).
-
+//Açıklama: bool(boolean), sadece iki değer alabilir: true(doğru) ya da false (yanlış). 
+//Burada sigaraKullaniyorMu adlı bir değişken tanımlandı ve değeri false olarak ayarlandı (yani sigara kullanmıyor).
+//
 //Console.WriteLine(...)
 
   //  Açıklama: Console.WriteLine, ekrana bir şey yazdırmak için kullanılır. Burada + operatörüyle metin ve değişkenler birleştirilerek çıktı oluşturuluyor.

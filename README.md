@@ -47,16 +47,16 @@ C# dili nesne yönelimli bir dildir. Bu, her şeyin bir nesne olarak ele alınd�
 
 Nesne yönelimli programlama sayesinde, kodlarınızı daha iyi organize edebilir ve tekrar kullanımını artırabilirsiniz.
 # 8. İleri Seviye Konular
-8.1. Delegates (Temsilciler)
+# 8.1. Delegates (Temsilciler)
 
 Delegates, bir fonksiyonun referansını taşıyan yapılardır. Bir anlamda fonksiyonları değişkenler gibi kullanmanıza olanak tanır. Özellikle olaylar (events) ve asenkron programlama ile birlikte sıkça kullanılır.
-8.2. Asenkron Programlama
+# 8.2. Asenkron Programlama
 
 Bazı işlemler uzun sürebilir, bu işlemleri programın ana akışını engellemeden gerçekleştirmek için asenkron programlama kullanılır. C# dilinde async ve await anahtar kelimeleri ile bu yapıyı kurabilirsiniz.
-8.3. LINQ (Language Integrated Query)
+# 8.3. LINQ (Language Integrated Query)
 
 LINQ, C# diline entegre edilmiş bir veri sorgulama dilidir. Koleksiyonlar, diziler veya veritabanları üzerinde sorgular yazmanızı sağlar. Örneğin, bir dizideki çift sayıları seçmek gibi işlemleri çok kolay bir şekilde yapabilirsiniz.
-Sonuç
+# Sonuç
 
 C# dili, geniş kullanım alanı ve güçlü özellikleri ile modern yazılım geliştirmede önemli bir yer tutar. Bu yazıda, temel program yapısından başlayarak, koşullar, döngüler, diziler ve nesne yönelimli programlama gibi önemli konuları inceledik. Ayrıca, ileri seviye konular olan asenkron programlama ve LINQ'e de değindik. Bu yazı, C# diline adım atanlar için yol gösterici bir giriş niteliğindedir.
 

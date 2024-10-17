@@ -1,0 +1,72 @@
+# Nesne Yönelimli Programlama (Object-Oriented Programming - OOP)
+
+Nesne Yönelimli Programlama (OOP), yazılım geliştirme sürecinde programları daha modüler, 
+sürdürülebilir ve tekrar kullanılabilir hale getirmek amacıyla geliştirilen bir programlama paradigmasıdır. 
+Bu paradigmada yazılımlar, nesne adı verilen temel yapı taşları etrafında inşa edilir. 
+Her nesne, belirli bir sınıfa (class) ait olup, sınıflar nesnelerin özelliklerini ve davranışlarını tanımlar.
+
+# OOP, dört temel prensibe dayanır:
+
+    Sınıflar (Classes) ve Nesneler (Objects)
+    Kapsülleme (Encapsulation)
+    Kalıtım (Inheritance)
+    Polimorfizm (Polymorphism)
+
+# 1. Sınıflar (Classes) ve Nesneler (Objects)
+
+# Sınıf (Class): Sınıflar, nesnelerin genel yapılarını ve davranışlarını tanımlayan şablonlardır. 
+Bir sınıf, belirli özellikleri (properties) ve bu özelliklerle ilgili işlemleri gerçekleştiren metotları içerir.
+# Nesne (Object): Bir sınıfın örneği (instance) olarak kabul edilir. 
+Sınıf, genel bir şablon iken, nesne bu şablondan üretilen somut varlıktır. Her nesne, sınıfında tanımlanan özelliklere ve metodlara sahiptir.
+
+2. Kapsülleme (Encapsulation)
+
+# Kapsülleme, bir nesnenin veri üyelerini (özelliklerini) dış dünyadan saklama ve sadece belirli metotlarla erişime izin verme tekniğidir. 
+Bu prensip, verilerin doğrudan değiştirilmesini engelleyerek, programın daha güvenli ve yönetilebilir olmasını sağlar. 
+Kapsülleme, genellikle sınıf içindeki değişkenleri private yaparak ve bu değişkenlere erişimi sağlamak için getter ve setter metodları kullanılarak uygulanır.
+
+3. Kalıtım (Inheritance)
+
+# Kalıtım, bir sınıfın başka bir sınıftan özellik ve davranışları miras almasına olanak tanır. 
+Bu sayede, yeni bir sınıf oluştururken mevcut bir sınıfın tüm özelliklerini ve metotlarını devralabilir ve yeni özellikler ekleyebiliriz. 
+Kalıtım, kodun tekrarını önler ve daha esnek, genişletilebilir bir yapıya olanak tanır.
+
+4. Polimorfizm (Polymorphism)
+
+Polimorfizm, bir sınıfın veya metodun, farklı şekillerde davranmasını sağlar. Bir metot, birden fazla sınıfta farklı şekillerde tanımlanabilir. 
+Polimorfizm, metotların yeniden tanımlanması (method overriding) ve metotların aşırı yüklenmesi (method overloading) şeklinde iki temel yol ile uygulanır.
+
+# a. Metotların Yeniden Tanımlanması (Method Overriding)
+
+Bir üst sınıfta tanımlanan bir metodu alt sınıfta kendi ihtiyacımıza göre yeniden tanımlama işlemidir.
+
+# b. Metotların Aşırı Yüklenmesi (Method Overloading)
+
+Aynı sınıf içinde, aynı isimde ancak farklı parametre listesine sahip metotlar tanımlanmasına metot aşırı yüklenmesi denir.
+
+# Diğer OOP Kavramları
+
+   # Soyutlama (Abstraction): Sınıfların karmaşık detaylarını gizleyip sadece gerekli özellikleri ve davranışları ortaya çıkarma işlemidir. 
+    Soyut sınıflar (abstract classes) ve arayüzler (interfaces) bu prensibi destekler.
+
+   # Abstract Sınıflar: İçerisinde tanımlı olan metotların alt sınıflarda mutlaka uygulanmasını gerektirir. 
+     Soyut sınıflar kendilerinden doğrudan nesne türetilmesine izin vermez.
+
+  # Arayüzler (Interfaces): Bir sınıfın uyması gereken davranışları tanımlar. Bir sınıf birden fazla arayüzü uygulayabilir. 
+   Arayüzler, sınıfın sahip olması gereken metodların imzalarını içerir, ancak bu metodların içeriği sınıfta tanımlanır.
+
+# OOP'nin Avantajları
+
+   # Modülerlik: Sınıflar sayesinde programlar daha modüler hale gelir. Her bir sınıf belirli bir sorumluluğa sahip olduğu için büyük projeler daha kolay yönetilebilir.
+
+   # Yeniden Kullanılabilirlik: Kalıtım yoluyla, mevcut sınıflar yeniden kullanılabilir ve genişletilebilir.
+
+   # Bakımı Kolaylaştırır: Kapsülleme sayesinde sınıflar ve nesneler arasındaki ilişkiler net bir şekilde tanımlanır ve bir hatayı veya değişikliği yönetmek daha kolay olur.
+
+   # Esneklik: Polimorfizm sayesinde, aynı metodun farklı şekillerde uygulanması mümkündür. Bu, programları daha esnek hale getirir.
+
+ # Sonuç
+
+Nesne yönelimli programlama, modern yazılım geliştirme süreçlerinde çok önemli bir rol oynar. 
+Sınıflar ve nesneler sayesinde yazılım projeleri daha iyi organize edilebilir, kodlar tekrar kullanılabilir ve sürdürülebilir hale gelir. 
+OOP’nin temellerini anladıktan sonra, yazılım projelerini daha verimli ve etkili bir şekilde geliştirmek mümkün olur.
